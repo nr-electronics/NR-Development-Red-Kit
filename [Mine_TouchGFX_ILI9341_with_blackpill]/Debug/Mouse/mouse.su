@@ -1,0 +1,17 @@
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:512:10:void touchgfx::Drawable::setVisible(bool)	16	static
+../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:534:10:bool touchgfx::Drawable::isVisible() const	16	static
+../TouchGFX/App/../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:110:17:static touchgfx::HAL* touchgfx::HAL::getInstance()	4	static
+../TouchGFX/App/../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:562:14:uint16_t touchgfx::HAL::getDisplayWidth() const	16	static
+../TouchGFX/App/../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:572:14:uint16_t touchgfx::HAL::getDisplayHeight() const	16	static
+../Mouse/mouse.hpp:63:9:CMouse::CMouse()	16	static
+../Mouse/mouse.cpp:17:9:static CMouse& CMouse::instanse()	8	static
+../Mouse/mouse.cpp:27:6:void CMouse::init()	16	static
+../Mouse/mouse.cpp:38:13:void CMouse::preparePicture(touchgfx::Image&)	16	static
+../Mouse/mouse.cpp:48:6:void CMouse::newMouseInfo(HID_MOUSE_Info_TypeDef*)	16	static
+../Mouse/mouse.cpp:55:6:void CMouse::process(touchgfx::Image&)	24	static
+../Mouse/mouse.cpp:73:13:bool CMouse::isPicturePrepare()	16	static
+../Mouse/mouse.cpp:78:13:bool CMouse::isMouseMoved()	16	static
+../Mouse/mouse.cpp:83:13:void CMouse::countXYpos(int16_t, uint16_t)	16	static
+../Mouse/mouse.cpp:93:13:void CMouse::getMouseMovement(int16_t&, int16_t&)	24	static,ignoring_inline_asm
+../Mouse/mouse.cpp:103:13:void CMouse::setPositionXY(uint16_t, uint16_t)	16	static
+../Mouse/mouse.cpp:113:6:bool CMouse::leftButtonState(int32_t&, int32_t&)	24	static
