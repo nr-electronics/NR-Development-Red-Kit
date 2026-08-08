@@ -1,0 +1,15 @@
+../Core/Src/main.c:107:5:main	16	static
+../Core/Src/main.c:173:6:SystemClock_Config	88	static
+../Core/Src/main.c:215:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:249:13:MX_USART1_UART_Init	8	static
+../Core/Src/main.c:282:13:MX_GPIO_Init	16	static
+../Core/Src/main.c:302:9:BCD_To_Dec	16	static
+../Core/Src/main.c:309:9:Dec_To_BCD	16	static
+../Core/Src/main.c:316:6:DS1307_Init	16	static
+../Core/Src/main.c:336:9:DS1307_ReadByte	40	static
+../Core/Src/main.c:345:6:DS1307_WriteByte	32	static
+../Core/Src/main.c:352:6:DS1307_ReadTime	40	static
+../Core/Src/main.c:372:6:DS1307_SetTime	40	static
+../Core/Src/main.c:391:6:DS1307_PrintTime	48	static
+../Core/Src/main.c:403:5:_write	24	static
+../Core/Src/main.c:414:6:Error_Handler	8	static,ignoring_inline_asm
